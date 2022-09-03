@@ -17,7 +17,7 @@ int findPeak(int *arr, int arrSize){
     }
     return arr[end];
 }
- 
+
 int main() {
     int arr[4] = {0,2,1,0};
     int arrSize = sizeof(arr)/sizeof(int);
