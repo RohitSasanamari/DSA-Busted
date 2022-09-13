@@ -1,4 +1,5 @@
 // Program to allocate the book to given students such that maximum number of pages assigned to a student is minimum.
+// CodeStudio - Allocate Books
 
 #include<iostream>
 #include<vector>
@@ -29,7 +30,6 @@ int allocateBook(vector<int> arr, int students){
     int end = sum;
     int mid = start + (end - start) / 2;
     int ans = -1;
-    isPossibleSolution(arr,mid,students);
     while(start <= end){
         if(isPossibleSolution(arr,mid,students)){
             ans = mid;
@@ -43,8 +43,8 @@ int allocateBook(vector<int> arr, int students){
 }
 
 int main() {
-    vector<int> arr = {10,20,30,40};
-    int students = 2;
+    vector<int> arr = {7,12,11,19,0,7,18,6,9,9,15,9,12,13,20,8,15,1,11,17};
+    int students = 12;
     cout << allocateBook(arr,students);
     return 0;
 }
