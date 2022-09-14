@@ -28,8 +28,8 @@ vector<int> twoSum(vector<int> &arr, int target){
 }
 
 int main() {
-    vector<int> arr = {3,2,4}; // 2,3,4
-    int target = 6;
+    vector<int> arr = {3,2,4,8}; // 2,3,4,8
+    int target = 10;
     vector<int> resArr = twoSum(arr,target);
     for(auto i:resArr)
         cout << i << " "; 

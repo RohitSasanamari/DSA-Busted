@@ -19,7 +19,7 @@ int findPeak(int *arr, int arrSize){
 }
 
 int main() {
-    int arr[4] = {0,2,1,0};
+    int arr[4] = {0,7,9,12,1,0};
     int arrSize = sizeof(arr)/sizeof(int);
     int ans =  findPeak(arr,arrSize);
     cout << ans;

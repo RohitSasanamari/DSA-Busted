@@ -1,5 +1,4 @@
 //Rotate array to the left by k steps, where k is non-negative
-//Codestudio Problem - 136
 
 #include<iostream>
 #include<vector>

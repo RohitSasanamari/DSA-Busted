@@ -7,11 +7,9 @@ using namespace std;
 void findMaxMin(int *arr, int size){
     int maxValue = INT16_MIN;
     int minValue = INT16_MAX;
-    for(int i=1; i<size; i++){
-        if(arr[i] > maxValue)
-            maxValue = arr[i];
-        if(arr[i] < minValue)
-            minValue = arr[i];        
+    for(int i=1; i<size; i++) {
+        maxValue = max(maxValue,arr[i]);
+        minValue = min(minValue,arr[i]);        
     }
     cout << "Maximum element= " << maxValue << endl;
     cout << "Minimum element= " << minValue << endl;

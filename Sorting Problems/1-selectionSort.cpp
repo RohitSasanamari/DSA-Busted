@@ -16,7 +16,7 @@ void selectionSort(int *arr, int arrSize){
 }
  
 int main() {
-    int arr[2] = {2,1}; // O/P = 9,11,23,65,75
+    int arr[5] = {65,11,9,23,75}; // O/P = 9,11,23,65,75
     int arrSize = sizeof(arr)/sizeof(int);
     selectionSort(arr,arrSize);
     cout << "Sorted Array.." << endl;

@@ -11,7 +11,7 @@ using namespace std;
 int findPositive(vector<int> arr)
 {
     int temp = 1;
-    sort(arr.begin(), arr.end());  //0,1,1,2,2
+    sort(arr.begin(), arr.end());  //-1,1,3,4
     for(int i=0;i<arr.size();i++){
         if(arr[i] == temp && arr[i] > 0){
             temp++;
@@ -21,7 +21,7 @@ int findPositive(vector<int> arr)
 }
 
 int main() {
-    vector<int> arr = {3,4,-1,1}; // Answer should be 3
+    vector<int> arr = {1,2,0}; // Answer should be 2
     int ans = findPositive(arr);
     cout << ans;
     return 0;

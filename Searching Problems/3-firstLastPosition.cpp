@@ -44,7 +44,7 @@ int findLastOcc(int *arr, int size, int key){
 }
 
 int main() {
-    int arr[3] = {0,1,2};
+    int arr[8] = {0,0,1,1,2,2,2,2};
     int key = 2;
     int arrSize = sizeof(arr)/sizeof(int);
     int first = findFirstOcc(arr,arrSize,key);
