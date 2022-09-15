@@ -16,7 +16,7 @@ bool findUnique(int *arr, int size){
         element.insert(i.second);
     if(uniqueCount.size() == element.size())
         return true;
-    else
+    else 
         return false;
 }
 

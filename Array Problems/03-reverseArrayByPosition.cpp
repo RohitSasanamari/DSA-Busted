@@ -16,7 +16,7 @@ void reverseArray(vector<int>& arr, int position){
  
 int main() {
     vector<int> arr = {1,2,3,4,5,6}; //Output should be 1,2,3,4,6,5
-    int position = 3;
+    int position = 4;
     reverseArray(arr,position);
     for(auto i:arr)
         cout << i << " ";
