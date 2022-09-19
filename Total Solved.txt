@@ -1,11 +1,11 @@
 												Total Problems Solved	(C++)
 
 
-												My PC (VS Code)  - 33 Problems
+												My PC (VS Code)  - 34 Problems
 
 												CodeStudio - 38 Problems
 
-												LeetCode - 29 Problems
+												LeetCode - 30 Problems
 
 												HackeRank - 0
 
