@@ -1,9 +1,9 @@
 												Total Problems Solved	(C++)
 
 
-												My PC (VS Code)  - 34 Problems
+												My PC (VS Code)  - 35 Problems
 
-												CodeStudio - 38 Problems
+												CodeStudio - 39 Problems
 
 												LeetCode - 30 Problems
 
